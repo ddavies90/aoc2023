@@ -20,6 +20,6 @@ if [ -d $directoryName ]; then
 else
   cp -r $basePath/template $directoryName
   mv $directoryName/__test__/day{x}.spec.ts $directoryName/__test__/$testFileName
-  sed -i '' -e s/{day}/$day/g $directoryName/index.ts
-  sed -i '' -e s/0/$day/g $directoryName/__test__/$testFileName
+  sed -i '' -e s/{day}/$day/g $directoryName/__test__/$testFileName
+  sed -i '' -e s/0/$day/g $directoryName/index.ts
 fi
