@@ -6,6 +6,7 @@ const part1 = async () => {
   return;
 };
 
-const part2 = () => {
+const part2 = async () => {
+  const input = await fetchPuzzleInput(0);
   return;
 };
