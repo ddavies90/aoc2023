@@ -4,7 +4,8 @@
   "description": "Typescript AoC 2023",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "newday": "utils/copyTemplate.sh"
   },
   "keywords": [
     "aoc"
